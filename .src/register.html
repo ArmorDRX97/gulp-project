@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Hi target</title>
+</head>
+<body>
+@@include('_header.html')
+
+<main class="forms" id="login">
+    <div class="container white-text">
+        <div class="row">
+            <div class="col s12 m6 offset-m3">
+                <h4>Регистрация</h4>
+                <p class="grey-text text-darken-2 form-sub">Уже есть аккаунт? <a href="login.html" class="white-text underline">Войти</a></p>
+                <br>
+                <form action="" class="form-consultation">
+                    <div class="input-field">
+                        <input type="text" id="phone" name="phone" class="browser-default" placeholder="Номер телефона">
+                    </div>
+                    <div class="input-field">
+                        <input type="password" id="password" name="password" class="browser-default" placeholder="Пароль">
+                    </div>
+                    <br>
+                    <button type="button" class="btn blue btn-large waves-effect">Зарегистрироваться</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+
+@@include('_footer.html')
+<script src="js/libs.min.js"></script>
+<script src="js/script.min.js"></script>
+</body>
+</html>
